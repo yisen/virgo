@@ -1,8 +1,12 @@
 virgo
 =====
+Fork from [https://github.com/henkman/virgo](https://github.com/henkman/virgo)
+
+---
+
 Virtual Desktop Manager for Windows
 
-[Download here](https://github.com/papplampe/virgo/releases/download/v.1.4.2/virgo.zip)
+[Download here](https://github.com/yisen/virgo/releases/download/v1.0.0/virgo.exe)
 
 Features:
 - resource friendly, exe is <10kb on disk and uses <1mb memory while running
@@ -11,14 +15,14 @@ Features:
 
 Hotkeys:
 
-        ALT + 1..4             -> changes to desktop 1..4
-        CTRL + 1..4            -> moves active window to desktop 1..4
-        ALT + CTRL + SHIFT + Q -> exits the program
-        ALT + CTRL + SHIFT + S -> starts/stops handling of other hotkeys
+        ALT + F1,F2,F3  -> changes to desktop 1..3
+        CTRL + F1,F2,F3  -> moves active window to desktop 1..3
+        ALT + CTRL + SHIFT + Q  -> exits the program
+        ALT + CTRL + SHIFT + S  -> starts/stops handling of other hotkeys
 
 the nerds can build it with
 
-        git clone https://github.com/papplampe/virgo.git
+        git clone https://github.com/yisen/virgo.git
         cd virgo
         make
 
